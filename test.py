@@ -1,4 +1,2 @@
+Print("Hallo das sol neu sein")
 
-Print("ello")
-
-Hallo das ist kein Phyton
