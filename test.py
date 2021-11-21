@@ -1,2 +1,5 @@
-Print("Hallo das sol neu sein")
+def say_print(name):
+    print(name)
 
+
+say_print("Hannes")
