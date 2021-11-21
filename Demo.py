@@ -3,11 +3,16 @@ class Car:
         self.car_brand = None
         self.car_power = None
         self.car_color = None
+        self.x_position = 5
+        self.y_position = 5
+    def drive(self, x, y):
+        self.x_position += x
+        self.y_position += y
+
+
 
 car1 = Car()
 
-print(car1.car_brand)
-car1.car_brand = "Toyota"
-print(car1.car_brand)
-car1.car_color = "Blau"
-print(car1.car_color)
+print(car1.y_position)
+print(car1.x_position)
+
